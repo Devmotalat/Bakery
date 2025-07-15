@@ -9,6 +9,7 @@ html,body {
     font-family: 'Poppins', sans-serif;
     color: #fff;
     scroll-behavior: smooth;
+    background-color: black;
     /* overflow-x: hidden;     nave hidden  */
 }
 img {
@@ -27,7 +28,6 @@ img {
     align-items: center;
     z-index: 10;
     background: transparent;
-    /*transition: top 0.3s ease, background-color 0.3s ease; /* Transition added for smooth hiding and showing */
     height: 100px;
 }
 
@@ -72,7 +72,7 @@ img {
     background-position: center center;
     background-size: cover;
     display: flex;
-    justify-content: center;
+    justify-content: center;        
     align-items: center;
     padding: 0 20px
 }
@@ -139,7 +139,7 @@ clearfix{
 .parent2 .content .col-left .img-card {
     position: relative;
     width: 100%;
-    min-height: 450px;
+    height: 450px;
 }
 
 .parent2 .content .col-left .img-card img {
@@ -171,10 +171,6 @@ clearfix{
     color: #ccc;
 }
 /* s,3 */
-.parent3 {
-    height: 50vh;
-}
-
 .parent3 .content {
     position: relative;
     width: 100%;
@@ -189,7 +185,7 @@ clearfix{
     width: 50%;
 }
 
-.parent3 .content .col2-right {
+.parent3 .content .col2-left {
     position: relative;
     width: 50%;
 }
