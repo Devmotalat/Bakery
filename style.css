@@ -31,7 +31,7 @@ img {
     height: 100px;
 }
 
-.navbar .logo a {
+.navbar-brand {
     font-size: 24px;
     font-weight: bold;
     color: #fff;
@@ -41,7 +41,7 @@ img {
     transition: color 0.3s ease;
 }
 
-.navbar .logo a:hover {
+.navbar-brand:hover {
     color: #e78c0eb0;
 }
 
@@ -52,7 +52,7 @@ img {
     gap: 40px;
 }
 
-.nav-links ul li a {
+.nav-item a {
     font-size: 18px;
     text-decoration: none;
     color: #fff;
@@ -61,7 +61,7 @@ img {
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.nav-links ul li a:hover {
+.nav-item a:hover {
     color: #e78c0eb0;
     transform: translateY(-5px);
 }
@@ -236,7 +236,7 @@ clearfix{
 }
 
 .special__card {
-    padding: 1rem;
+    /* padding: 1rem; */
     text-align: center;
     border-radius: 2rem;
 }
